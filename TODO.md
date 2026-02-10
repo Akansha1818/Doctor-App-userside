@@ -1,0 +1,6 @@
+- [x] Update constants/colors.ts to remove dark colors and use only light colors
+- [x] Modify hooks/use-theme-color.ts to return static light colors
+- [x] Modify hooks/use-theme-colors.ts to return static light colors
+- [x] Update app/(auth)/welcome.tsx to import Colors instead of lightColors
+- [x] Fix components/home/Search.tsx to use primaryLight instead of primaryLighter
+- [x] Verified no other files import lightColors or darkColors
